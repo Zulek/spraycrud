@@ -6,3 +6,9 @@
 
 # Удалить
 ```curl -X DELETE http://localhost:8080/1```
+
+# Собрать проект
+```sbt assembly```
+
+# Запустить проект
+```java -jar path/to/SprayCrud-assembly-1.0.jar```
